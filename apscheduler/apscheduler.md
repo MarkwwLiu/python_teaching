@@ -66,4 +66,4 @@ scheduler.start()
 - Linkedin: https://www.linkedin.com/in/%E7%B4%8B%E7%91%8B-%E5%8A%89-03356584/
 - CakeResume: https://www.cakeresume.com/me/ak790718
 
-##### link: https://github.com/MarkwwLiu/python_teaching/apscheduler/apscheduler.md
+##### link: https://github.com/MarkwwLiu/python_teaching/blob/main/apscheduler/apscheduler.md
