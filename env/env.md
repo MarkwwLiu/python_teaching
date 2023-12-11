@@ -17,7 +17,7 @@
      ```
    這將在當前目錄下建立一個名為 `myenv` 的虛擬環境。
 
-   ![建立後產生的 'myenv' 資料夾](https://raw.githubusercontent.com/MarkwwLiu/python3_teacnihg/main/img/SCR-20231209-fkb-2.png)
+   ![建立後產生的 'myenv' 資料夾](https://raw.githubusercontent.com/MarkwwLiu/python_teaching/main/img/SCR-20231209-fkb-2.png)
 
 3. **啟動虛擬環境**
    - 使用以下指令啟動虛擬環境：
@@ -27,29 +27,29 @@
        ```
    這將切換你的終端機至虛擬環境。
 
-   ![進入到虛擬環境內](https://raw.githubusercontent.com/MarkwwLiu/python3_teacnihg/main/img/SCR-20231209-fmb-2.png)
+   ![進入到虛擬環境內](https://raw.githubusercontent.com/MarkwwLiu/python_teaching/main/img/SCR-20231209-fmb-2.png)
 
 4. **確認虛擬環境啟動**
    - 為了確認你在虛擬環境中，執行以下指令。由於虛擬環境是乾淨的，它不應顯示任何套件。
      ```bash
      pip3 freeze
      ```
-   ![確認進入虛擬環境](https://raw.githubusercontent.com/MarkwwLiu/python3_teacnihg/main/img/SCR-20231209-fol-2.png)
+   ![確認進入虛擬環境](https://raw.githubusercontent.com/MarkwwLiu/python_teaching/main/img/SCR-20231209-fol-2.png)
 
 5. **在虛擬環境中安裝套件**
    - 在虛擬環境中，使用以下類似的指令安裝套件：
      ```bash
      pip3 install requests
      ```
-   ![安裝套件](https://raw.githubusercontent.com/MarkwwLiu/python3_teacnihg/main/img/SCR-20231209-fqd-2.png)
-   ![確認安裝套件](https://raw.githubusercontent.com/MarkwwLiu/python3_teacnihg/main/img/SCR-20231209-frb-2.png)
+   ![安裝套件](https://raw.githubusercontent.com/MarkwwLiu/python_teaching/main/img/SCR-20231209-fqd-2.png)
+   ![確認安裝套件](https://raw.githubusercontent.com/MarkwwLiu/python_teaching/main/img/SCR-20231209-frb-2.png)
 
 6. **退出虛擬環境**
    - 使用以下指令退出虛擬環境：
      ```bash
      deactivate
      ```
-   ![退出虛擬環境](https://raw.githubusercontent.com/MarkwwLiu/python3_teacnihg/main/img/SCR-20231209-fsu.png)
+   ![退出虛擬環境](https://raw.githubusercontent.com/MarkwwLiu/python_teaching/main/img/SCR-20231209-fsu.png)
 
 ### 結論
 透過這些步驟，你已成功在Python中建立並使用虛擬環境。
