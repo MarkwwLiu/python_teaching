@@ -51,11 +51,15 @@ Hi, Alex
 Hi, Jenny
 ```
 
-這段程式碼首先定義了一個 `say_hello_to` 函數，該函數接受一個名字，並返回一個打招呼的字串。接著，我們建立了一個名為 `names` 的名字清單，並使用 `ThreadPoolExecutor` 的 `submit` 方法以最多 5 個執行緒的方式並發地執行 `say_hello_to` 函數。
+這段程式碼首先定義了一個 `say_hello_to` 函數，該函數接受一個名字，並返回一個打招呼的字串。
+
+接著，我們建立了一個名為 `names` 的名字清單，並使用 `ThreadPoolExecutor` 的 `submit` 方法以最多 5 個執行緒的方式並發地執行 `say_hello_to` 函數。
 
 `as_completed` 方法用於等待任務完成，並按完成順序獲取結果。
 
-接著，我們定義了另一個 `say_hello1_to` 函數和一個新的名字清單 `names1`。這次我們使用 `ThreadPoolExecutor` 的 `map` 方法，它更為簡潔，直接返回執行結果。
+接著，我們定義了另一個 `say_hello1_to` 函數和一個新的名字清單 `names1`。
+
+這次我們使用 `ThreadPoolExecutor` 的 `map` 方法，它更為簡潔，直接返回執行結果。
 
 最後，我們輸出了兩組任務的執行結果。
 
