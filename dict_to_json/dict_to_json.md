@@ -68,7 +68,6 @@ main(save_json_path=os.getcwd() + '/', save_json_name='test', data_dict=example_
 
 #### 關於我的連結
 - GitHub: https://github.com/MarkwwLiu
-- Facebook: https://www.facebook.com/TestMrMark
 - Linkedin: https://www.linkedin.com/in/%E7%B4%8B%E7%91%8B-%E5%8A%89-03356584/
 - CakeResume: https://www.cakeresume.com/me/ak790718
 
